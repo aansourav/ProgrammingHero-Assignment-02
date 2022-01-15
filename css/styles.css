@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0px;
   padding: 0px;
@@ -280,7 +278,7 @@ footer h4 {
   margin-bottom: 10px;
 }
 footer .copywrite-text {
-  font-family: Manrope;
+  font-family: Outfit;
   font-style: normal;
   font-size: 14px;
   color: #d9dbe1;
@@ -349,7 +347,6 @@ footer .social-links span {
   .features .container {
     padding: 0% 0%;
     padding-bottom: 2%;
-    /* margin: 20px 10px; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
@@ -427,4 +424,5 @@ footer .social-links span {
   .features {
     height: 1000px;
   }
+
 }
