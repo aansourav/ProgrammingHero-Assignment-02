@@ -200,7 +200,7 @@ header .nav-links li a {
 .see-more-button a {
   text-decoration: none;
   padding: 2px 8px;
-  color: #e02c6dde;
+  color: tomato;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -208,10 +208,11 @@ header .nav-links li a {
   line-height: 24px;
 }
 
+.see-more-button a:hover {
+  text-shadow: 5px 10px 8px #3b3b3b83;
+}
+
 .features {
-  /* margin: 20px 0px; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/feature-banner.jpg");
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
@@ -221,7 +222,7 @@ header .nav-links li a {
 .feature-title {
   font-size: 40px;
   text-align: center;
-  color: #ffffff;
+  color: #161616;
   padding-top: 30px;
 }
 .tomato-color {
@@ -239,7 +240,7 @@ header .nav-links li a {
 }
 
 .features .container .feature {
-  color: #ffffff;
+  color: #242424;
   padding: 10px;
 }
 .features .container .feature .feature-heading {
@@ -249,12 +250,12 @@ header .nav-links li a {
   margin-bottom: 9px;
 }
 .features .container .feature .feature-heading :hover {
-  color: #e02c6dde;
+  color: tomato;
   transition-duration: 0.4s;
 }
 .features .container .feature .feature-heading .fa {
   margin-right: 10px;
-  color: #e02c6dde;
+  color: tomato;
 }
 .features .container .feature p {
   margin-top: 4px;
@@ -424,5 +425,4 @@ footer .social-links span {
   .features {
     height: 1000px;
   }
-
 }
