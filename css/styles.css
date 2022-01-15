@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@100&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@100;400&display=swap");
+
 
 body {
   margin: 0px;
@@ -98,9 +98,9 @@ header .nav-links li a {
   transition-duration: 1.2s;
 }
 .container .right-div:hover .background-div {
-  box-shadow: 0 0 15px #e02c6dde;
-  border-radius: 50%;
-  transition: 0.8s;
+  box-shadow: 10px 0 15px #b4b4b27c;
+  border-radius: 90%;
+  transition: 1.2s;
 }
 .logos {
   margin: 30px 0px;
